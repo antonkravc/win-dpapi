@@ -107,7 +107,7 @@ void ProtectDataCommon(bool protect, Nan::NAN_METHOD_ARGS_TYPE info)
 	info.GetReturnValue().Set(returnBuffer);
 }
 
-// public unsafe static byte[] Protect(byte[] userData, byte[] optionalEntropy, DataProtectionScope scope) 
+// public unsafe static byte[] Protect(byte[] userData, byte[] optionalEntropy, DataProtectionScope scope)
 NAN_METHOD(protectData)
 {
 	ProtectDataCommon(true, info);

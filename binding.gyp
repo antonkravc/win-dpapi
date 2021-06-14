@@ -1,8 +1,8 @@
 {
   "targets": [
     {
-      "target_name": "node-dpapi",
-      "sources": [ "src/node-dpapi.cpp" ],
+      "target_name": "win-dpapi",
+      "sources": [ "src/win-dpapi.cpp" ],
       "include_dirs": [
         "<!(node -e \"require('nan')\")",
         "include"
